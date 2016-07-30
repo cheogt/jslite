@@ -1,2 +1,3 @@
 # jslite
-selector and dom to html js library
+Selector + dom to html + js CSS library
+Version 1
