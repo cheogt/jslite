@@ -224,7 +224,7 @@ thead:function(o,e){$.e.remove(1,e.tHead)}
 add:function(a,e){a=tof(a)==='a'?a:[a,a];var op=$.create('option');op.value=a[0];op.text=a[1];e.add(op,$.isIE?ø:null);return op}
 ,options:function(a,e){if(!a)return [].cat(e.options).remove(0,e.o.head?1:0);if(e.o.head!==false)$.e.select.add(e.o.head||['','Seleccione...'],e).className+=' head';a.each(function(y){$.e.select.add(this,e).className+=y%2?' alt':''})}
 }
+$.loaded=1
 /**/
 return $
 })()
-alert(jslite)
